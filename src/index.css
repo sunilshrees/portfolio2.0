@@ -118,7 +118,7 @@ body {
         font-size: 36px;
     }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 425px) {
     .section-title {
         font-size: 26px;
     }
