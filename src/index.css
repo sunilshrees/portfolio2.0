@@ -508,6 +508,9 @@ body {
     #projects {
         padding-right: 0%;
     }
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 /* credits */
@@ -515,6 +518,18 @@ body {
     display: flex;
     align-items: center;
     padding-top: 100px;
+    padding-right: 140px;
+}
+
+@media (max-width: 1080px) {
+    #credits {
+        padding-right: 160px;
+    }
+}
+@media (max-width: 700px) {
+    #credits {
+        padding-right: 0px;
+    }
 }
 
 .ending-credits {

@@ -16,7 +16,7 @@ const Intro = () => {
                         onInit={(typewriter) => {
                             typewriter
                                 .typeString('hi, ')
-                                .pauseFor(500)
+                                .pauseFor(400)
                                 .typeString(' sunil here. ')
                                 .start();
                         }}

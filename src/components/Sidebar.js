@@ -7,22 +7,30 @@ const Sidebar = () => {
     return (
         <div className='sidebar-container'>
             <div className='sidebar'>
-                <FadeInRightSection>
-                    <ul>
+                <ul>
+                    <FadeInRightSection delay='100ms'>
                         <li>
                             <a href='#'>/home</a>
                         </li>
+                    </FadeInRightSection>
+
+                    <FadeInRightSection delay='200ms'>
                         <li>
                             <a href='#about'>/about</a>
                         </li>
-                        {/* <li>
+                    </FadeInRightSection>
+
+                    {/* <li>
                             <a href='#experience'>/experience</a>
                         </li> */}
+
+                    <FadeInRightSection delay='300ms'>
                         <li>
                             <a href='#projects'>/projects</a>
                         </li>
-                    </ul>
-                </FadeInRightSection>
+                    </FadeInRightSection>
+                </ul>
+
                 <div className='sidebar-logos' href='/'>
                     <a href='mailto:sunilshrees371@gmail.com'>
                         <FiInbox style={{ fontSize: 20 }}></FiInbox>
