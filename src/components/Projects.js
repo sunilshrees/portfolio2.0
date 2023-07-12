@@ -63,7 +63,7 @@ const Projects = () => {
             {/* {spotlightProjects.map((project) => (
                     return <></>
                 ))} */}
-            <Slider />
+            {/* <Slider /> */}
 
             <div className='project-container'>
                 <ul className='projects-grid'>
