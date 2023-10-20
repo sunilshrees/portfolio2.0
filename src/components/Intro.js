@@ -33,7 +33,7 @@ const Intro = () => {
                     </p>
                 </div>
             </FadeInSection>
-            <a href='mailto:sunilshrees371@gmail.com' className='intro-contact'>
+            <a href='mailto:sunil123@gmail.com' className='intro-contact'>
                 <FiMail className='icon' />
                 Say hi !
             </a>

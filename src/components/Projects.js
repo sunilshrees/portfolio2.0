@@ -78,16 +78,17 @@ const Projects = () => {
                                             }}></BsFillFolderFill>
                                     </div>
                                     <span className='external-links'>
-                                        <a
+                                        {/* <a
                                             href={project.link}
+                                            target='_blank'
                                             className='github-icon'>
                                             <FiGithub
                                                 style={{
                                                     fontSize: 22,
                                                     color: 'var(--green-bright)',
                                                 }}></FiGithub>
-                                        </a>
-                                        {project.open && (
+                                        </a> */}
+                                        {/* {project.open && (
                                             <a
                                                 href={project.open}
                                                 className='open-icon'>
@@ -97,7 +98,7 @@ const Projects = () => {
                                                         color: 'var(--green-bright)',
                                                     }}></AiOutlineLink>
                                             </a>
-                                        )}
+                                        )} */}
                                     </span>
                                 </div>
 

@@ -32,13 +32,13 @@ const Sidebar = () => {
                 </ul>
 
                 <div className='sidebar-logos' href='/'>
-                    <a href='mailto:sunilshrees371@gmail.com'>
+                    <a href='mailto:sunil123@gmail.com' target='_blank' rel="noreferrer">
                         <FiInbox style={{ fontSize: 20 }}></FiInbox>
                     </a>
-                    <a href='https://github.com/sunilshrees'>
+                    <a href='https://github.com/' target='_blank' rel="noreferrer">
                         <FiGithub style={{ fontSize: 19 }}></FiGithub>
                     </a>
-                    <a href='https://www.linkedin.com/in/sunil-shrees-8a059818a/'>
+                    <a href='https://www.linkedin.com/' target='_blank' rel="noreferrer">
                         <FiLinkedin style={{ fontSize: 21 }}></FiLinkedin>
                     </a>
                 </div>
