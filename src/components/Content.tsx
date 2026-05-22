@@ -1,20 +1,15 @@
-import React from 'react';
 import Intro from './Intro';
 import About from './About';
-import Experience from './Experience';
 import Projects from './Projects';
 import Credits from './Credits';
 
-const Content = () => {
+export default function Content() {
     return (
-        <div className='content'>
+        <div className="content">
             <Intro />
             <About />
-            {/* <Experience /> */}
             <Projects />
             <Credits />
         </div>
     );
-};
-
-export default Content;
+}

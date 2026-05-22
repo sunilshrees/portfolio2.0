@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=NTR&display=swap');
-
 :root {
     --dark-navy: #020c1b;
     --navy: #0a192f;
@@ -22,7 +20,6 @@
 
 html {
     scroll-behavior: smooth;
-    font-family: 'NTR', sans-serif;
 }
 body {
     overflow-x: hidden;
@@ -103,7 +100,7 @@ body {
 }
 
 .section-title {
-    font-family: 'NTR', sans-serif;
+    font-family: inherit;
     color: var(--lightest-slate);
     font-size: 46px;
     font-weight: bold;
@@ -213,7 +210,7 @@ body {
 }
 
 .intro-title {
-    font-family: 'NTR', sans-serif;
+    font-family: inherit;
     font-size: 77px;
     margin-bottom: -40px;
 }
@@ -226,7 +223,7 @@ body {
 .intro-contact {
     font-size: 22px;
     font-weight: bolder;
-    font-family: 'NTR', sans-serif;
+    font-family: inherit;
     padding: 10px 30px;
     margin-top: 3rem;
     cursor: pointer;
@@ -330,7 +327,7 @@ body {
 }
 
 .about-description {
-    font-family: 'NTR', sans-serif;
+    font-family: inherit;
     color: var(--slate);
     max-width: 600px;
     font-size: 20px;
@@ -471,21 +468,21 @@ body {
 }
 
 .card-title {
-    font-family: 'NTR', sans-serif;
+    font-family: inherit;
     color: var(--lightest-slate);
     font-size: 24px;
     font-weight: bold;
 }
 
 .card-desc {
-    font-family: 'NTR', sans-serif;
+    font-family: inherit;
     color: var(--slate);
     font-size: 18px;
     padding-bottom: 40px;
 }
 
 .card-tech {
-    font-family: 'NTR', sans-serif;
+    font-family: inherit;
     color: var(--slate);
     font-size: 16px;
 }
@@ -533,7 +530,7 @@ body {
 }
 
 .ending-credits {
-    font-family: 'NTR', sans-serif;
+    font-family: inherit;
     color: var(--slate);
     text-align: center;
     width: 100%;
