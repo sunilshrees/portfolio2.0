@@ -42,6 +42,9 @@ const personJsonLd = {
 
 export const metadata: Metadata = {
   title: "Sunil Shrees | Portfolio",
+  verification: {
+    google: "3pzfrfFY77hDSuHnUWYi2W0KdEisswV9vzKjjjzCj3c",
+  },
   description:
     "Portfolio of Sunil Shrees, a Next.js developer building fast, beautiful web apps.",
   openGraph: {
