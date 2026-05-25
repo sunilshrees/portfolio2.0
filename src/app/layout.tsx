@@ -22,7 +22,7 @@ const ntr = NTR({
   ],
 });
 
-const siteUrl = "https://ai.sunilshrees.com.np";
+const siteUrl = process.env.FRONTEND_URL;
 
 const personJsonLd = {
   "@context": "https://schema.org",
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     title: "Sunil Shrees | Portfolio",
     description:
       "Portfolio of Sunil Shrees, a Next.js developer building fast, beautiful web apps.",
-    url: "https://ai.sunilshrees.com.np/",
+    url: "https://sunilshrees.com.np/",
     siteName: "Sunil Shrees",
     images: [
       {
