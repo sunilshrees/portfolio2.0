@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 
 export const dynamic = "force-static";
 
-const siteUrl = process.env.FRONTEND_URL!;
+const siteUrl = "https://sunilshrees.com.np";
 
 export default function robots(): MetadataRoute.Robots {
   return {

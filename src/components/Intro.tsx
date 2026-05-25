@@ -7,6 +7,8 @@ import FadeInSection from "./FadeInSection";
 function IntroTypewriter() {
   const [text, setText] = useState("");
 
+  console.log(process.env.FRONTEND_URL);
+
   useEffect(() => {
     const segments = [
       { value: "hi, ", speed: 80 },
@@ -19,7 +21,9 @@ function IntroTypewriter() {
       for (const segment of segments) {
         if (cancelled) return;
         if (segment.pauseBefore) {
-          await new Promise((resolve) => setTimeout(resolve, segment.pauseBefore));
+          await new Promise((resolve) =>
+            setTimeout(resolve, segment.pauseBefore),
+          );
         }
         for (const char of segment.value) {
           if (cancelled) return;

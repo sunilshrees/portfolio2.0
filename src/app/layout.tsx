@@ -22,7 +22,7 @@ const ntr = NTR({
   ],
 });
 
-const siteUrl = process.env.FRONTEND_URL;
+const siteUrl = "https://sunilshrees.com.np";
 
 const personJsonLd = {
   "@context": "https://schema.org",
