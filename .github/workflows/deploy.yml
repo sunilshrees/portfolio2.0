@@ -26,6 +26,6 @@ jobs:
             git fetch origin next-js
             git checkout next-js
             git reset --hard origin/next-js
-            docker compose build
-            docker compose up -d --remove-orphans
+            docker-compose build
+            docker-compose up -d --remove-orphans
             docker image prune -f
